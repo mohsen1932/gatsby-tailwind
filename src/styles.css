@@ -1,0 +1,11 @@
+@import "tailwindcss/utilities";
+
+.btn {
+  @apply max-w-sm mx-auto p-6 bg-blue-500 shadow-xl flex;
+}
+.my-btn-color {
+  background-color: aqua;
+  &:hover {
+    background-color: #f00;
+  }
+}
